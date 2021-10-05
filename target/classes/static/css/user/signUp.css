@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.joinArea {
+	margin-top: 3%;
+}
+
+th {
+	text-align: right;
+}
+
+td {
+	padding: 5px 10px;
+}
+
+.must {
+	color: red;
+}
+
+#nickCheck {
+	background: rgb(212, 129, 91);
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	border: 0;
+	border-radius: 7px;
+	font-size: 12px;
+}
+
+span.guide {
+	display: none;
+	font-size: 12px;
+	top: 12px;
+	right: 10px;
+	margin: 9px 0 -2px;
+}
+
+span.ok {
+	color: green;
+}
+
+span.error {
+	color: red;
+}
+
+span.guide2 {
+	display: none;
+	font-size: 12px;
+	top: 12px;
+	right: 10px;
+	margin: 9px 0 -2px;
+}
+
+span.ok2 {
+	color: green;
+}
+
+span.error2 {
+	color: red;
+}
+span.guide3 {
+	display: none;
+	font-size: 12px;
+	top: 12px;
+	right: 10px;
+	margin: 9px 0 -2px;
+}
+
+span.ok3 {
+	color: green;
+}
+
+span.error3 {
+	color: red;
+}
+
+#joinMemberTable {
+	margin-left: 120px;
+}
+
+#updateBtn {
+	background: rgb(212, 129, 91);
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+	border: 0;
+	border-radius: 7px;
+	width: 80px;
+	margin-left: 100px;
+}
+
+#reset {
+	background: rgb(204, 65, 57);
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+	border: 0;
+	border-radius: 7px;
+	width: 80px;
+}
+
+#homeBtn {
+	background: rgb(26, 188, 156);
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+	border: 0;
+	border-radius: 7px;
+	width: 140px;
+}
+#logo{
+	width: 350px;
+	height: 120px;
+	
+}
+#userId{
+	
+}

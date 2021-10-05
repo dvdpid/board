@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.pagingArea { 
+		display: inline-block; width: 100%;
+		font-size: 13px; margin-top: 20px; margin-bottom: 20px;
+	}
+	
+	.pageBtn{ 
+		display: inline-block;
+		background: rgb(244, 244, 244); width: 30px; line-height: 30px;	
+		text-align: center; border-radius: 2px; 
+	}
+	
+	.pageBtn:hover{ 
+		background: lightgray;
+	}
+	
+	.currentpageBtn{ 
+		display: inline-block;
+		background: rgb(240, 230, 255); color: black; text-align: center; 
+		width: 30px; line-height: 30px;  border-radius: 2px;
+	}
+	
+  	a{
+  		text-decoration: none;
+  		color: black;
+  	}

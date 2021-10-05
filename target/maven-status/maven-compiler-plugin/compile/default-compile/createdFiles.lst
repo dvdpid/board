@@ -1,0 +1,8 @@
+com\example\board\board\dto\BoardDto.class
+com\example\board\user\dto\UserLogin.class
+com\example\board\user\dto\UserInfoDto.class
+com\example\board\DemoApplication.class
+com\example\board\user\mapper\UserMapper.class
+com\example\board\comment\dto\CommentDto.class
+com\example\board\user\controller\UserController.class
+com\example\board\user\service\UserService.class

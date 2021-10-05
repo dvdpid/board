@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.board.board.mapper.BoardMapper">
+
+
+	<select id="getBoardList" resultType="Board">
+		SELECT *
+		FROM BOARD
+		order by BOARD_NO DESC;
+	</select>
+	
+	<select id="getListCount" resultType="_int">
+		select count(*)
+		from board
+	</select>
+	
+	<insert id="insertBoard">
+		INSERT INTO BOARD(BOARD_TITLE, BOARD_CONTENTS, BOARD_WRITER, BOARD_DATE)
+		VALUES(#{BOARD_TITLE}, #{BOARD_CONTENTS}, #{BOARD_WRITER}, now())
+	</insert>
+	
+	<select id="boardSelect" resultType="Board">
+		SELECT *
+		FROM BOARD
+		WHERE BOARD_NO = #{BOARD_NO}
+	</select>
+	
+	<update id="updateBoard">
+		UPDATE BOARD
+		SET BOARD_TITLE = #{BOARD_TITLE}, BOARD_CONTENTS = #{BOARD_CONTENTS}, BOARD_DATE = NOW()
+		WHERE BOARD_NO = #{BOARD_NO}
+	</update>
+	
+	<update id="boardCount">
+		UPDATE BOARD
+		SET BOARD_COUNT = BOARD_COUNT + 1
+		WHERE BOARD_NO = #{BOARD_NO}
+	</update>
+	
+	<delete id="deleteBoard">
+		DELETE FROM BOARD
+		WHERE BOARD_NO = #{BOARD_NO}
+	</delete>
+	
+	
+</mapper>
